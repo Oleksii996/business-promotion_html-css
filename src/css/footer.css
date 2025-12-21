@@ -1,5 +1,7 @@
-.footer {
+.page-footer {
   padding: 20px 0;
+
+  background-color: aqua;
 }
 .footer-desc {
   text-align: center;
