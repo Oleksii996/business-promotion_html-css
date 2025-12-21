@@ -11,4 +11,10 @@
 
 /* Sections style */
 @import url('./header.css');
+
+@import url('./parts_css/1_product.css');
+@import url('./parts_css/2_customers.css');
+@import url('./parts_css/3_pricing.css');
+@import url('./parts_css/4_product.css');
+
 @import url('./footer.css');

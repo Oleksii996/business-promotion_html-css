@@ -1,0 +1,26 @@
+.product-section-one {
+  margin-top: 25px;
+  background-color: rgb(255, 211, 211);
+  margin-bottom: 100px;
+}
+
+.product-section-two {
+  background-color: rgb(255, 211, 211);
+  margin-bottom: 50px;
+}
+
+.product-section-three {
+  background-color: rgb(255, 211, 211);
+}
+
+.management {
+  background-color: aliceblue;
+}
+
+.customer-support {
+  background-color: lavender;
+}
+
+.collaborative {
+  background-color: honeydew;
+}
