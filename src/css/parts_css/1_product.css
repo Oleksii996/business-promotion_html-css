@@ -1,16 +1,28 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  background-color: rgb(132, 149, 226);
+}
+
 .product-section-one {
   margin-top: 25px;
-  background-color: rgb(255, 211, 211);
-  margin-bottom: 100px;
+  background-color: rgb(224, 207, 207);
+  margin-bottom: 50px;
 }
 
 .product-section-two {
   background-color: rgb(255, 211, 211);
-  margin-bottom: 50px;
 }
 
+/* #region Management + Customer Support + Collaborative  */
 .product-section-three {
-  background-color: rgb(255, 211, 211);
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+
+  background-color: rgb(193, 236, 164);
 }
 
 .management {
@@ -18,9 +30,33 @@
 }
 
 .customer-support {
-  background-color: lavender;
+  background-color: rgb(229, 207, 231);
 }
 
 .collaborative {
-  background-color: honeydew;
+  background-color: rgb(190, 236, 234);
+}
+/* #endregion */
+
+.product-section-process {
+  background-color: rgb(255, 211, 211);
+  height: 150px;
+}
+
+.product-section-contents-strategies {
+  background-color: rgb(255, 211, 211);
+  height: 150px;
+}
+
+.product-section-price-table {
+  background-color: rgb(255, 211, 211);
+}
+
+.product-section-feedback {
+  background-color: rgb(191, 214, 164);
+  margin-bottom: 50px;
+}
+
+.product-section-promotions {
+  background-color: rgb(171, 192, 165);
 }
