@@ -19,6 +19,18 @@
 .header-logo {
   margin-right: auto;
 }
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  color: #173a56;
+}
+
 .header-nav-list {
   gap: 30px;
 }
