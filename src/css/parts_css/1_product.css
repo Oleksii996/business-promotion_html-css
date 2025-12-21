@@ -6,14 +6,34 @@
   background-color: rgb(132, 149, 226);
 }
 
-.product-section-one {
+/* #region section one */
+.part {
+  background-color: rgb(255, 255, 255);
+}
+
+.product-one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 35px;
+
   margin-top: 25px;
-  background-color: rgb(224, 207, 207);
+  background-color: rgb(255, 211, 211);
   margin-bottom: 50px;
 }
 
+.product-one-info {
+  background-color: rgb(180, 180, 180);
+
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+}
+/* #endregion */
+
 .product-section-two {
-  background-color: rgb(255, 211, 211);
+  background-color: rgb(193, 236, 164);
 }
 
 /* #region Management + Customer Support + Collaborative  */
