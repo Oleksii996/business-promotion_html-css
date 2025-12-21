@@ -32,3 +32,20 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+h1 {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+
+  color: rgb(34, 52, 61);
+}
+p {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+
+  color: rgb(34, 52, 61);
+}
