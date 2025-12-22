@@ -26,10 +26,17 @@
   display: flex;
   flex-direction: column;
   height: fit-content;
-  gap: 24px;
+  gap: 35px;
   width: 465px;
 
   background-color: rgb(180, 180, 180);
+}
+
+.product-one-buttons {
+  background-color: rgb(255, 112, 112);
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
 /* #endregion */
 
