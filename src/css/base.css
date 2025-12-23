@@ -36,16 +36,12 @@ main:has(.back-link) {
 /* #region text */
 h1 {
   font-family: 'Poppins';
-  font-weight: 700;
-  font-size: 40px;
   line-height: 150%;
 
   color: rgb(34, 52, 61);
 }
 p {
   font-family: 'Poppins';
-  font-weight: 400;
-  font-size: 18px;
   line-height: 156%;
 
   color: rgb(34, 52, 61);
@@ -53,10 +49,19 @@ p {
 /* #endregion */
 
 /* #region buttons */
-.button-type-green {
+.button-green {
   background-color: rgb(2, 137, 122);
-  color: rgb(255, 255, 255);
+
   border: none;
   border-radius: 8px;
+
+  width: 170px;
+  height: 60px;
+
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgb(255, 255, 255);
 }
 /* #endregion */
