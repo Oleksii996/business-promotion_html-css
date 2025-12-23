@@ -1,7 +1,6 @@
 .product {
   display: flex;
   flex-direction: column;
- 
 
   background-color: rgb(132, 149, 226);
 }
@@ -132,7 +131,9 @@
 @media screen and (min-width: 768px) {
   .product-one-info {
     padding-top: 50px;
-    max-width: 450px;
+    max-width: 600px;
+
+    gap: 40px;
   }
 }
 
