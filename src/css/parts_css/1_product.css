@@ -139,6 +139,7 @@
 
 /* Desktop */
 @media screen and (min-width: 1200px) {
+  /* #region section one */
   .product-one {
     display: flex;
     flex-direction: row-reverse;
@@ -160,4 +161,9 @@
   .button-watch-video {
     width: 165px;
   }
+  /* #endregion */
+
+  /* #region section 2 */
+
+  /* #endregion */
 }
