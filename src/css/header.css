@@ -1,21 +1,22 @@
 .page-header {
   padding: 19px 0;
-
   background-color: aqua;
 }
 
-.header-container,
-.header-nav,
-.header-nav-list,
-.header-auth-list {
+.header {
   display: flex;
-  align-items: center;
+  flex-direction: row;
 }
 
 .header-nav {
+  display: none;
+  flex-direction: row;
+
   flex-grow: 1;
   margin-right: 76px;
+  background-color: rgb(209, 209, 209);
 }
+
 .header-logo {
   margin-right: auto;
 }
@@ -32,6 +33,9 @@
 }
 
 .header-nav-list {
+  background-color: rosybrown;
+  display: flex;
+  flex-direction: row;
   gap: 30px;
 }
 .header-nav-link {
@@ -52,6 +56,9 @@
 }
 
 .header-auth-list {
+  display: none;
+  background-color: lightgreen;
+
   gap: 21px;
 }
 
@@ -73,4 +80,12 @@
   color: #fff;
   background-color: #02897a;
   border-color: #02897a;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+}
+
+/* Desktop */
+@media screen and (min-width: 1200px) {
 }
