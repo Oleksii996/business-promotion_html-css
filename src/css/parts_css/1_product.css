@@ -42,7 +42,7 @@
   gap: 30px;
 }
 .button-green.section-one {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
 
   width: 150px;
@@ -54,7 +54,7 @@
   justify-content: space-between;
   gap: 8px;
 
-  background-color: rgb(255, 255, 255);
+  background-color: transparent;
 
   font-family: 'Poppins';
   font-weight: 600;
@@ -64,29 +64,30 @@
   color: rgb(2, 137, 122);
   border: none;
 }
-.icon-triangle {
+.watch-video-icon-item {
   fill: rgb(2, 137, 122);
 }
 /* #endregion */
 
 /* #region section two */
 .product-two {
-  background-color: rgb(113, 139, 95);
+  background-color: rgb(255, 255, 255);
   text-align: center; /* центрує рядки тексту */
 
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 50px;
 }
 .product-two-list {
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
   display: flex;
 
   flex-direction: column;
   gap: 40px;
 }
 .product-two-list-item {
-  background-color: transparent;
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -106,18 +107,18 @@
   background-color: transparent;
   font-weight: 400;
   font-size: 18px;
+  padding: 0 50px 0 50px;
 }
-
-.icon-field {
+.product-two-icon-field {
   width: 54px;
   height: 54px;
   border-radius: 15px;
   position: relative;
 }
-.icon-item {
+.product-two-icon-item {
+  fill: rgb(255, 255, 255);
   width: 20px;
   height: 20px;
-  background-color: rgb(255, 255, 255);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -135,7 +136,12 @@
 #icon-bd-4 {
   background-color: rgb(240, 62, 61);
 }
+.button-green.section-two {
+  font-weight: 600;
+  font-size: 16px;
 
+  width: 150px;
+}
 /* #endregion */
 
 /* #region Management + Customer Support + Collaborative  */
@@ -196,6 +202,22 @@
     gap: 40px;
   }
   /* #endregion */
+
+  /* #region section two */
+  .product-two h2 {
+    width: 500px;
+  }
+  .product-two-list {
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  .product-two-list-item {
+    width: calc((100% - 40px) / 2);
+  }
+  /* #endregion */
 }
 
 /* Desktop */
@@ -221,6 +243,19 @@
 
   .button-watch-video {
     width: 165px;
+  }
+  /* #endregion */
+
+  /* #region section two */
+  .product-two p {
+    padding: 0;
+  }
+  .product-two-list {
+    flex-wrap: nowrap;
+  }
+  .product-two-list-item {
+    align-items: start;
+    text-align: start; /* центрує рядки тексту */
   }
   /* #endregion */
 }
