@@ -40,6 +40,19 @@ h1 {
 
   color: rgb(34, 52, 61);
 }
+h2 {
+  font-family: 'Poppins';
+  line-height: 150%;
+
+  color: rgb(34, 52, 61);
+}
+h3 {
+  font-family: 'Poppins';
+  line-height: 150%;
+
+  color: rgb(34, 52, 61);
+}
+
 p {
   font-family: 'Poppins';
   line-height: 156%;
@@ -56,7 +69,7 @@ p {
   border-radius: 8px;
 
   width: 170px;
-  height: 60px;
+  height: 45px;
 
   font-family: 'Poppins';
   font-weight: 600;

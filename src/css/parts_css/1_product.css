@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
 
-  background-color: rgb(132, 149, 226);
+  background-color: rgb(255, 240, 240);
 }
 
 /* #region section one */
@@ -15,7 +15,6 @@
   background-color: rgb(255, 255, 255);
   margin-bottom: 50px;
 }
-
 .product-one-info {
   display: flex;
   flex-direction: column;
@@ -26,7 +25,6 @@
 
   background-color: rgb(255, 255, 255);
 }
-
 .product-one h1 {
   font-weight: 700;
   font-size: 36px;
@@ -37,21 +35,18 @@
   font-weight: 400;
   font-size: 18px;
 }
-
 .product-one-buttons {
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
   gap: 30px;
 }
-
 .button-green.section-one {
   font-weight: 700;
   font-size: 16px;
 
   width: 150px;
 }
-
 .button-watch-video {
   display: flex;
   flex-direction: row;
@@ -69,15 +64,48 @@
   color: rgb(2, 137, 122);
   border: none;
 }
-
 .icon-triangle {
   fill: rgb(2, 137, 122);
 }
 /* #endregion */
 
-.product-section-two {
-  background-color: rgb(193, 236, 164);
+/* #region section two */
+.product-two {
+  background-color: rgb(113, 139, 95);
+  text-align: center; /* центрує рядки тексту */
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
+.product-two-list {
+  background-color: aqua;
+  display: flex;
+
+  flex-direction: column;
+  gap: 40px;
+}
+.product-two h2 {
+  font-weight: 700;
+  font-size: 32px;
+  background-color: transparent;
+}
+.product-two h3 {
+  font-weight: 600;
+  font-size: 22px;
+  background-color: transparent;
+}
+.product-two p {
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.icon-bd {
+  background-color: rgb(146, 102, 102);
+  fill: rgb(255, 17, 17);
+}
+/* #endregion */
 
 /* #region Management + Customer Support + Collaborative  */
 .product-section-three {
@@ -129,12 +157,14 @@
 
 /* Tablet */
 @media screen and (min-width: 768px) {
+  /* #region section one */
   .product-one-info {
     padding-top: 50px;
     max-width: 600px;
 
     gap: 40px;
   }
+  /* #endregion */
 }
 
 /* Desktop */
@@ -161,9 +191,5 @@
   .button-watch-video {
     width: 165px;
   }
-  /* #endregion */
-
-  /* #region section 2 */
-
   /* #endregion */
 }
