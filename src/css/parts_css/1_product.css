@@ -85,6 +85,13 @@
   flex-direction: column;
   gap: 40px;
 }
+.product-two-list-item {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
 .product-two h2 {
   font-weight: 700;
   font-size: 32px;
@@ -101,10 +108,34 @@
   font-size: 18px;
 }
 
-.icon-bd {
-  background-color: rgb(146, 102, 102);
-  fill: rgb(255, 17, 17);
+.icon-field {
+  width: 54px;
+  height: 54px;
+  border-radius: 15px;
+  position: relative;
 }
+.icon-item {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#icon-bd-1 {
+  background-color: rgb(2, 137, 122);
+}
+#icon-bd-2 {
+  background-color: rgb(77, 141, 255);
+}
+#icon-bd-3 {
+  background-color: rgb(116, 10, 118);
+}
+#icon-bd-4 {
+  background-color: rgb(240, 62, 61);
+}
+
 /* #endregion */
 
 /* #region Management + Customer Support + Collaborative  */
