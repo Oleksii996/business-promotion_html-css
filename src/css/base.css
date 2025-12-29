@@ -53,6 +53,13 @@ h3 {
   color: rgb(34, 52, 61);
 }
 
+h4 {
+  font-family: 'Poppins';
+  line-height: 150%;
+
+  color: rgb(34, 52, 61);
+}
+
 p {
   font-family: 'Poppins';
   line-height: 156%;

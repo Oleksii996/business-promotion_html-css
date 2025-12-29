@@ -1,6 +1,7 @@
 .product {
   display: flex;
   flex-direction: column;
+  gap: 50px;
 
   background-color: rgb(255, 240, 240);
 }
@@ -13,7 +14,6 @@
   justify-content: space-between;
 
   background-color: rgb(255, 255, 255);
-  margin-bottom: 50px;
 }
 .product-one-info {
   display: flex;
@@ -144,25 +144,63 @@
 }
 /* #endregion */
 
-/* #region Management + Customer Support + Collaborative  */
-.product-section-three {
+/* #region section three */
+.product-three {
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 50px;
 
-  background-color: rgb(193, 236, 164);
+  background-color: rgb(255, 255, 255);
 }
+.product-three-list {
+  display: flex;
+  flex-direction: column;
 
-.management {
-  background-color: aliceblue;
+  gap: 15px;
+  background-color: rgb(255, 255, 255);
 }
-
-.customer-support {
-  background-color: rgb(229, 207, 231);
+.product-three-list-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: rgb(255, 255, 255);
 }
-
-.collaborative {
-  background-color: rgb(190, 236, 234);
+.product-three h4 {
+  font-weight: 600;
+  font-size: 16px;
+  background-color: transparent;
+}
+.product-three-list-2-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  background-color: rgb(255, 255, 255);
+}
+.product-three-icon-field {
+  width: 35px;
+  height: 35px;
+  flex-shrink: 0; /* 🔑 головне рішення */
+  border-radius: 10px;
+  position: relative;
+}
+#icon-three-bd-1 {
+  background-color: rgb(255, 153, 0);
+}
+#icon-three-bd-2 {
+  background-color: rgb(240, 62, 61);
+}
+#icon-three-bd-3 {
+  background-color: rgb(77, 141, 255);
+}
+.product-three-icon-item {
+  fill: rgb(255, 255, 255);
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /* #endregion */
 
