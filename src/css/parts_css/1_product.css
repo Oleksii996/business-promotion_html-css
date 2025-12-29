@@ -207,13 +207,54 @@
 
 /* #region section four */
 .product-four {
-  background-color: rgb(255, 211, 211);
+  background-color: rgb(190, 212, 136);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  align-items: stretch;
+  text-align: center; /* центрує рядки тексту */
+}
+.product-four-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  background-color: rgb(136, 146, 111);
 }
 
+.product-four-list-item {
+  background-color: rgb(104, 166, 170);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#product-four-person_1 {
+  border-radius: 45px;
+  border: 3px solid rgb(255, 9, 9);
+}
+#product-four-person_2 {
+  border-radius: 45px;
+  border: 3px solid rgb(2, 137, 122);
+}
+#product-four-person_3 {
+  border-radius: 45px;
+  border: 3px solid rgb(3, 91, 129);
+}
+#product-four-person_4 {
+  border-radius: 45px;
+  border: 3px solid rgb(116, 10, 118);
+}
+
+.product-four-list-item p {
+  font-weight: 500;
+  max-width: 180px;
+}
 /* #endregion */
 
 /* #region  */
-
 .product-section-contents-strategies {
   background-color: rgb(255, 211, 211);
   height: 150px;
