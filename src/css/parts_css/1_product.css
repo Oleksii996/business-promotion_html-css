@@ -205,11 +205,14 @@
 }
 /* #endregion */
 
-/* #region  */
-.product-section-process {
+/* #region section four */
+.product-four {
   background-color: rgb(255, 211, 211);
-  height: 150px;
 }
+
+/* #endregion */
+
+/* #region  */
 
 .product-section-contents-strategies {
   background-color: rgb(255, 211, 211);
