@@ -157,6 +157,7 @@
   flex-direction: column;
 
   gap: 15px;
+
   background-color: rgb(255, 255, 255);
 }
 .product-three-list-2 {
@@ -256,6 +257,17 @@
     width: calc((100% - 40px) / 2);
   }
   /* #endregion */
+
+  /* #region section three  */
+  .product-three-list {
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+  }
+  .product-three-list-2 {
+    background-color: rgb(255, 255, 255);
+    padding-right: 150px;
+  }
+  /* #endregion */
 }
 
 /* Desktop */
@@ -294,6 +306,19 @@
   .product-two-list-item {
     align-items: start;
     text-align: start; /* центрує рядки тексту */
+  }
+  /* #endregion */
+
+  /* #region section three */
+  .product-three-list {
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  .product-three-list.customer-support {
+    flex-direction: row;
+  }
+  .product-three p {
+    max-width: 450px;
   }
   /* #endregion */
 }
