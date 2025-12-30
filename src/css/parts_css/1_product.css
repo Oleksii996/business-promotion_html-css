@@ -212,25 +212,25 @@
   flex-direction: column;
   gap: 20px;
 
-  align-items: stretch;
+  align-items: center; /* центрує весь текст */
   text-align: center; /* центрує рядки тексту */
 }
 .product-four-list {
   display: flex;
   flex-direction: column;
+  width: 100%;
   gap: 15px;
 
-  background-color: rgb(136, 146, 111);
+  background-color: rgb(211, 179, 91);
 }
-
 .product-four-list-item {
   background-color: rgb(104, 166, 170);
   display: flex;
   flex-direction: row;
+  gap: 50px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
-
 #product-four-person_1 {
   border-radius: 45px;
   border: 3px solid rgb(255, 9, 9);
@@ -247,10 +247,17 @@
   border-radius: 45px;
   border: 3px solid rgb(116, 10, 118);
 }
-
 .product-four-list-item p {
   font-weight: 500;
   max-width: 180px;
+}
+.button-green.section-three {
+  min-width: 200px;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 8px;
+
+  width: 150px;
 }
 /* #endregion */
 
