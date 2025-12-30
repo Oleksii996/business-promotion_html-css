@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 50px;
 
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(179, 179, 179);
 }
 
 /* #region section one */
@@ -263,26 +263,44 @@
 }
 /* #endregion */
 
-/* #region  */
+/* #region section five "Contents Strategies" */
 .product-section-contents-strategies {
-  background-color: rgb(255, 211, 211);
-  height: 150px;
+  background-color: rgb(217, 224, 116);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
+.product-section-five-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.product-section-five-item {
+  background-color: rgb(255, 146, 146);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.product-section-five-item h3 {
+  padding-right: 100px;
+}
+.product-section-five-item img {
+  border-radius: 20px;
+}
+
+/* #endregion */
 
 .product-section-price-table {
   background-color: rgb(255, 211, 211);
 }
-
 .product-section-feedback {
   background-color: rgb(191, 214, 164);
   margin-bottom: 50px;
 }
-
 .product-section-promotions {
   background-color: rgb(171, 192, 165);
 }
-
-/* #endregion */
 
 /* Tablet */
 @media screen and (min-width: 768px) {
@@ -385,6 +403,7 @@
   }
   .product-three-list.customer-support {
     flex-direction: row;
+    gap: 80px;
   }
   .product-three p {
     max-width: 450px;
